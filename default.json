@@ -6,7 +6,6 @@
     ":disableRateLimiting",
     "docker:enableMajor",
     "docker:pinDigests",
-    ":automergeDigest",
     ":enablePreCommit",
     "github>mcfio/renovate-config:commit-message",
     "github>mcfio/renovate-config:pr-labels",

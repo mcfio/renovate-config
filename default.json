@@ -7,6 +7,7 @@
     "docker:enableMajor",
     "docker:pinDigests",
     ":enablePreCommit",
+    ":semanticCommits",
     "github>mcfio/renovate-config:commit-message",
     "github>mcfio/renovate-config:pr-labels",
     "github>mcfio/renovate-config:semantic-commits",

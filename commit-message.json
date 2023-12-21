@@ -15,7 +15,7 @@
     {
       "matchDatasources": ["docker"],
       "matchUpdateTypes": ["digest"],
-      "commitMessageTopic": "image {{depName}}"
+      "commitMessageTopic": "image {{depName}}",
       "commitMessageExtra": "( {{currentDigestShort}} → {{newDigestShort}} )"
     },
   ]

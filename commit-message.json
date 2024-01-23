@@ -17,6 +17,6 @@
       "matchUpdateTypes": ["digest"],
       "commitMessageTopic": "image {{depName}}",
       "commitMessageExtra": "( {{currentDigestShort}} → {{newDigestShort}} )"
-    },
+    }
   ]
 }

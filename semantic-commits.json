@@ -18,24 +18,24 @@
       "semanticCommitType": "fix"
     },
     {
+      "matchUpdateTypes": ["digest"],
+      "semanticCommitType": "chore"
+    },
+    {
       "matchDatasources": ["docker"],
-      "semanticCommitScope": "docker-image"
+      "semanticCommitScope": "container"
     },
     {
       "matchDatasources": ["helm"],
-      "semanticCommitScope": "helm-chart"
+      "semanticCommitScope": "helm"
     },
     {
       "matchDatasources": ["terraform-provider"],
-      "semanticCommitScope": "terraform-provider"
+      "semanticCommitScope": "terraform"
     },
     {
-      "matchDatasources": ["galaxy-collection"],
-      "semanticCommitScope": "ansible-collection"
-    },
-    {
-      "matchDatasources": ["galaxy-role"],
-      "semanticCommitScope": "ansible-role"
+      "matchDatasources": ["galaxy", "galaxy-collection", "galaxy-role"],
+      "semanticCommitScope": "ansible"
     },
     {
       "matchManagers": ["github-actions"],

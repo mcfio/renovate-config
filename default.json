@@ -10,7 +10,8 @@
     "github>mcfio/renovate-config:commit-message",
     "github>mcfio/renovate-config:pr-labels",
     "github>mcfio/renovate-config:semantic-commits",
-    "github>mcfio/renovate-config:custom-managers.json5"
+    "github>mcfio/renovate-config:custom-managers.json5",
+    "helpers:pinGitHubActionDigests"
   ],
   "dependencyDashboardTitle": "Renovate Dashboard",
   "suppressNotifications": ["prIgnoreNotification"],

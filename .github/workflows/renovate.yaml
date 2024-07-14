@@ -13,6 +13,16 @@ on:
         default: debug
         required: false
         type: string
+      autoDiscover:
+        description: Enable Repo Auto Discovery
+        default: false
+        required: false
+        type: boolean
+      autoDiscoverFilter:
+        description: Repo Auto Discover Filter
+        default: "*"
+        required: false
+        type: string
       version:
         description: Renovate version
         default: latest
@@ -49,6 +59,8 @@ jobs:
         env:
           LOG_LEVEL: ${{ inputs.logLevel || 'debug' }}
           RENOVATE_DRY_RUN: ${{ inputs.dryRun || 'false' }}
+          RENOVATE_AUTODISCOVER: ${{ inputs.autoDiscover || 'false' }}
+          RENOVATE_AUTODISCOVER_FILTER: ${{ inputs.autoDiscoverFilter || '*' }}
           RENOVATE_PLATFORM: github
           RENOVATE_PLATFORM_COMMIT: true
         with:

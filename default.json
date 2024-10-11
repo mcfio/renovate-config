@@ -5,7 +5,7 @@
     ":dependencyDashboard",
     ":disableRateLimiting",
     "docker:enableMajor",
-    ":timezone(Canada/Easatern)",
+    ":timezone(Canada/Eastern)",
     "github>mcfio/renovate-config:automerge-github-actions",
     "github>mcfio/renovate-config:commit-message",
     "github>mcfio/renovate-config:pr-labels",

@@ -19,5 +19,5 @@
   "suppressNotifications": ["prIgnoreNotification"],
   "commitBodyTable": true,
   "rebaseWhen": "auto",
-  "platformCommit": true
+  "platformCommit": "enabled"
 }

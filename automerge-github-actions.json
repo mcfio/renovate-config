@@ -4,6 +4,7 @@
     {
       "description": "Auto-merge GitHub Actions",
       "matchManagers": ["github-actions"],
+      "matchPackageNames": ["/^actions\//", "/^renovatebot\//"],
       "automerge": true,
       "automergeType": "branch",
       "matchUpdateTypes": ["minor", "patch", "digest"],
